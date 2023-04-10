@@ -68,7 +68,7 @@ workflows:
           requires:
             - build
       - deploy:
-          requires::
+          requires:
             - test
           filter:
             branches:
