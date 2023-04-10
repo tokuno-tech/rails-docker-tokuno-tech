@@ -70,6 +70,6 @@ workflows:
       - deploy:
           requires:
             - test
-          filter:
+          filters:
             branches:
               only: main
