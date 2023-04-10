@@ -72,4 +72,4 @@ workflows:
             - test
           filter:
             branches:
-              only:main
+              only: main
